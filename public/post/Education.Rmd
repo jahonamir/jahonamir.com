@@ -1,0 +1,56 @@
+---
+title: "Education"
+author: "Jahon Amirebrahimi"
+date: 2018-01-01
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+I hold a top ranked bachelors and masters degree from the University of California, Berkeley and am pursuing a second masters from the University of California, Davis. I've researched at two universities abroad and hold a certificate in project management from the University of Adelaide.
+
+## University of California, Davis
+Department of Agriculture and Resource Economics  
+**Master of Science, Energy Econometrics**  
+2019 - 2020
+
+## University of California, Berkeley
+Goldman School of Public Policy  
+**Master of Public Policy, Energy Policy**  
+2017 - 2019  
+
+#### Key Coursework
+* Energy and Environmental Markets (Severin Borenstein)
+* Energy Regulation and Policy (Steve Weissman)
+* Energy Modeling (Daniel Kammen)
+* Spatial Data Analysis (Ian Wang)
+* Regression Analysis (Rucker Johnson)
+* Microeconomic Applications (Steve Rafael)
+
+## University of California, Berkeley
+College of Natural Resources  
+**Bachelor of Science, Environmental Science**   
+2009 - 2013  
+
+#### Key Coursework
+* Global Environmental Modeling (John Harte)
+* Environmental Economics 
+* Silviculture Modeling
+* Environmental Research Methods (Kurt Spreyer)
+* Agriculture Systems (Nathan Sayre)
+* Agro-ecological Management (Miguel Altieri)
+* Political Ecology (Louise Fortmann)
+* Wildlife Ecology
+
+### Universidad de Belgrano
+Education Abroad Program  
+University of California Partnership  
+Buenos Aires, Argentina  
+
+### Københavns Universitet
+Education Abroad Program  
+University of California Partnership  
+Copenhagen, Denmark  

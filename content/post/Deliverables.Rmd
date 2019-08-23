@@ -1,0 +1,22 @@
+---
+title: "Deliverables"
+author: "Jahon Amirebrahimi"
+date: 2016-01-01
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+California Energy Storage Alliance: How CCA Growth Will Impact CA Storage Procurement  
+California Public Utilities Commission: Evaluating Investor Owned Utility Marketing, Education, and Outreach Programs  
+Zero Waste Energy Development Company: Anaerobic Digestion Case Study  
+SB 168 Budget Change Proposal: California’s Deposit Refund Program  
+Senate Bill 1383 Regulation Development: Short Lived Climate Pollutants: Organic Waste Methane Emissions Reduction  
+Community Energy Efficiency Program (CEEP): Regional West Australian LED Streetlights and Solar PV   
+Kalgoorlie-Boulder Class II Industrial Environmental Risk Inspections  
+Kalgoorlie-Boulder Wind Farm Feasibility Analysis 
+

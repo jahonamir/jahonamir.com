@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jahon Amir</title>
+    <link>/</link>
+    <description>Recent content on Jahon Amir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>/post/about/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/about/</guid>
+      <description>Hi there!My name is Jahon. Pronounced Jahân or d͡ʒæhɒŋ, referring to the world, universe, or galaxy in Persian, Urdu, Dari and Sanskrit.
+Big shoes to fill you see, but I find it helps to take life one moment at a time.
+A ClueAlthough I was born to such a grandoise name, I never fully knew it’s meaning until much later in life. Growing up a lower-middle working class suburb just east of the city center of Sacramento, California, the common languange was American english and that side of my family practiced the predominant culture.</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/post/education/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/education/</guid>
+      <description>I hold a top ranked bachelors and masters degree from the University of California, Berkeley and am pursuing a second masters from the University of California, Davis. I’ve researched at two universities abroad and hold a certificate in project management from the University of Adelaide.
+University of California, DavisDepartment of Agriculture and Resource Economics
+Master of Science, Energy Econometrics
+2019 - 2020
+University of California, BerkeleyGoldman School of Public Policy</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>/post/experience/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/experience/</guid>
+      <description>Energy analyst, UC Berkeley MPP, and UC Davis MS Candidate with a background in energy finance, markets, greenhouse gas, and policy modeling and analysis. Experience includes:
+Project finance and life-cycle greenhouse gas modeling
+Cleantech and energy market and policy analysis
+Strategy development for entering emerging markets and governance
+Corporate, academic, and government policy writing and publishing
+Developing and maintaining relationships with external stakeholders, including goverments, advocacy groups, and contractors.</description>
+    </item>
+    
+    <item>
+      <title>Deliverables</title>
+      <link>/post/deliverables/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/deliverables/</guid>
+      <description>California Energy Storage Alliance: How CCA Growth Will Impact CA Storage Procurement
+California Public Utilities Commission: Evaluating Investor Owned Utility Marketing, Education, and Outreach Programs
+Zero Waste Energy Development Company: Anaerobic Digestion Case Study
+SB 168 Budget Change Proposal: California’s Deposit Refund Program
+Senate Bill 1383 Regulation Development: Short Lived Climate Pollutants: Organic Waste Methane Emissions Reduction
+Community Energy Efficiency Program (CEEP): Regional West Australian LED Streetlights and Solar PV</description>
+    </item>
+    
+  </channel>
+</rss>
