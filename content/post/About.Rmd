@@ -9,17 +9,13 @@ tags: ["R Markdown", "plot", "regression"]
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
-
+<center>
+![](/post/About_files/Jahon.png)
+</center>
 
 ## Hi there!
 
-My name is Jahon. Pronounced Jahân or d͡ʒæhɒŋ, referring to the world, universe, or galaxy in Persian, Urdu, Dari and Sanskrit. 
-
-<center>
-![](/post/About_files/nova.jpg)
-</center>
-
-Big shoes to fill you see, but I find it helps to take life one moment at a time. 
+My name is Jahon. Pronounced Jahân or d͡ʒæhɒŋ, referring to the world, universe, or galaxy in Persian, Urdu, Dari and Sanskrit. Big shoes to fill you see, but I find it helps to take life one moment at a time. 
 
 ## A Clue
 
@@ -33,7 +29,7 @@ I soon discovered our gruesome past and current conflicts surrounding energy ext
 
 ## Some Practice
 
-Thanks to Berks, I gained some invaluable training and experience.  It's presented in the website but in summary, I was able to research in both Denmark and Argentina and work in both Australian and Californian environmental sectors. I was able to refine my skillset with my masters, and I'm now going for more specialization with another masters at Davis.
+Thanks to Berks, I gained some invaluable training and experience.  It's presented in the website but in summary, I was able to research in both Denmark and Argentina and work in both Australian and Californian energy sectors. I was able to refine my skillset with my masters, and I'm now going for more specialization with another masters at Davis.
 
 ## Today
 

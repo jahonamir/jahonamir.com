@@ -28,6 +28,7 @@ Goldman School of Public Policy
 * Energy Modeling (Daniel Kammen)
 * Spatial Data Analysis (Ian Wang)
 * Regression Analysis (Rucker Johnson)
+* Program Evaluation (Jessie Rothstein)
 * Microeconomic Applications (Steve Rafael)
 
 ## University of California, Berkeley

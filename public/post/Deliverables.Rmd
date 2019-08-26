@@ -10,13 +10,100 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Here you can see a selection of my work done over the years, in form of either code snippets, visualizations, or even full publications. 
 
-California Energy Storage Alliance: How CCA Growth Will Impact CA Storage Procurement  
-California Public Utilities Commission: Evaluating Investor Owned Utility Marketing, Education, and Outreach Programs  
-Zero Waste Energy Development Company: Anaerobic Digestion Case Study  
-SB 168 Budget Change Proposal: California’s Deposit Refund Program  
-Senate Bill 1383 Regulation Development: Short Lived Climate Pollutants: Organic Waste Methane Emissions Reduction  
-Community Energy Efficiency Program (CEEP): Regional West Australian LED Streetlights and Solar PV   
-Kalgoorlie-Boulder Class II Industrial Environmental Risk Inspections  
-Kalgoorlie-Boulder Wind Farm Feasibility Analysis 
+## ES&T Publication: California Bioenergy Policy Evaluation
+
+Here I worked with Berkeley Labs' Electricity Markets & Policy group to evaluate both the scientific and regulatory constraints impacting the bioenergy sector. 
+
+##### J. Satchwell, Andrew & Scown, Corinne & Josephine Smith, Sarah & Amirebrahimi, Jahon & Jin, Ling & Kirchstetter, Thomas & Brown, Nancy & V. Preble, Chelsea. (2018). Accelerating the Deployment of Anaerobic Digestion to Meet Zero Waste Goals. Environmental Science & Technology. 52. 10.1021/acs.est.8b04481.
+
+**[Full PDF](https://www.ce.berkeley.edu/sites/default/files/assets/users/kirchstetter/Satchwell%20et%20al%2C%20ES%26T%20Feature%202018%2C%20Accelerating%20AD%20for%20Zero%20Waste.pdf)**
+
+## ES&T Publication (In Review): Statewide Bioenergy Lifecycle Emissions Analysis
+
+Here I worked with Berkeley Lab's Sustainable Energy Systems group to evaluate the lifecycle greenhouse gas impact of bioenergy byproducts California wide. 
+
+##### M. Breunig, Hanna & Amirebrahimi, Jahon & Smith, Sarah & D. Scown, Corinne (2019). Bioenergy byproduct-to-land life-cycle for the gasification and anaerobic digestion of California’s biomass residues.
+
+This code snippet in R uses tidyverse to aggregate emission impacts evaluated.  
+```{Bioenergy Byproduct GHG Summation}
+emissions.summary.co2eq <- byproduct.emissions %>%
+    group_by(year, biomass.category, product) %>%
+    summarize(ch4.emitted.compost.digestate.co2eq = sum(ch4.digestate.compost.tonne.co2eq, na.rm= T),
+              co2.emitted.compost.digestate.co2eq = sum(co2.digestate.compost.tonne.co2eq, na.rm= T),
+              ch4.emitted.digestate.decay.co2eq = sum(ch4.emit.digestate.soil.tonne.co2eq, na.rm = T),
+              n2o.emitted.digestate.decay.co2eq = sum(n2o.digestate.tonne.co2eq, na.rm = T),
+              co2.emitted.biochar.digestate.decay.co2eq = sum(co2.emit.soil.tonne.co2eq, na.rm = T),
+              carbon.accumulation.biochar.digestate.co2eq = sum(soil.C.accumulated.tonne.co2, na.rm = T),
+              carbon.sink.npp.digestate.co2eq = sum(npp.change.tonne.co2eq, na.rm= T),
+              n2o.sink.biochar.soil.co2eq = sum(n2o.sink.biochar.soil.tonne.co2eq, na.rm = T),
+              ch4.sink.biochar.soil.co2eq = sum(ch4.sink.biochar.soil.tonne.co2eq, na.rm = T),     
+              ghg.trucking.tillage.co2eq = sum(trucking.co2eq, na.rm = T),
+              scenario = scenarios$scenario[index])
+  
+  emissions.summary.co2eq <- melt(emissions.summary.co2eq, 
+                            id.vars = c('year','biomass.category','product', 'scenario'), 
+                            variable.name = 'process', 
+                            value.name = 'value')
+```
+  
+And some example preliminary results:  
+
+![](/post/Deliverables_files/byproduct.jpeg)  
+
+## Task Report: Facility Lifecycle Emissions Analysis
+
+Here I worked with Berkeley Lab's Electricity Markets & Policy group to evaluate the lifecycle greenhouse gas impact of a Californian Bioenergy Facility for the California Energy Commission.
+
+This code snippet in R uses matrix algebra to aggregate emission factors with facility processes.  
+```{}
+y$scenario <- cases[scenario]
+y$contributors <- rownames(y)
+y.inputs <- rbind(y.inputs, y)
+normalization.factor <- sum(tonnage.by.location.daily$value, na.rm = T)
+y[,"y"] <- y[,"y"] / normalization.factor
+y1 <- y
+y1[y1>0] <- 0
+y1 <- abs(y1)
+y[y<0] <- 0
+results.kg.co2eq <- TotalGHGEmissions(A, data.matrix(y, rownames.force = NA),
+                                      co2.filepath,
+                                      ch4.filepath, n2o.filepath,
+                                      time.horizon)
+```
+  
+Here's a figure of some preliminary results.  
+
+![](/post/Deliverables_files/CEC.jpeg) 
+
+## Masters Thesis: Project Financial Model
+
+I developed a financial model to determine the feasibility of anaerobic digestion facilities varying state market context and end product. 
+
+##### Amirebrahimi, Jahon (2019). Determining Dry Anaerobic Digestion Feasibility to Advance State Environmental Ambitions. Goldman School of Public Policy, University of California, Berkeley. 
+
+This code snippet in R calculates the net present value and internal rate of return using facility cost and revenue vectors.
+```{Thesis Code}
+opData <- CalculateOpsData(wasteData, 'base')
+unitCost <- read.csv(file.path(model_path, 'inputs', 'unit_costs_USA.csv'))
+costList <- list(); n <- 1; m <- 1
+for (scale_scenario in names(scenarioScalars)){
+  costList[[m]] <- CalculateCostData(opData, unitCost)
+  m <- m + 1
+}
+costDataFrame <- do.call("rbind", costList)
+profit.npv.irr <- CalculateStateNPVandIRR(costDataFrame)
+results.df <- data.frame(
+  digester.mass = profit.npv.irr[['npv']][['digester.mass']],
+  average.cash = profit.npv.irr[['average']][['value']],
+  npv = profit.npv.irr[['npv']][['value']],
+  irr = profit.npv.irr[['irr']][['value']],
+  state = profit.npv.irr[['npv']][['state']],
+  scenario2 = profit.npv.irr[['npv']][['scenario2']]
+)
+```
+Here's a figure of some results.  
+![](/post/Deliverables_files/thesis.jpeg)  
+**[Full PDF](/post/Deliverables_files/thesis.pdf)**
 
