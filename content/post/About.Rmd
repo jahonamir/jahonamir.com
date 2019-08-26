@@ -15,21 +15,21 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 ## Hi there!
 
-My name is Jahon. Pronounced Jahân or d͡ʒæhɒŋ, referring to the world, universe, or galaxy in Persian, Urdu, Dari and Sanskrit. Big shoes to fill you see, but I find it helps to take life one moment at a time. 
+My name is Jahon. Pronounced Jahân or d͡ʒæhɒŋ, referring to the world, universe, or galaxy in Persian, Urdu, Dari and Sanskrit. I was born with big shoes to fill you see, but by now I've found it easier to take life one moment at a time. 
 
 ## A Clue
 
-Although I was born to such a grandoise name, I never fully knew it's meaning until much later in life. Growing up a lower-middle working class suburb just east of the city center of Sacramento, California, the common languange was  American english and that side of my family practiced the predominant culture. I may have had some clues into what was this other side of me - with random days having gormeh sabzi or fesenjaan for dinner or visits to distant relatives a few times a year where everyone would suddenly speak another language - but my parents never really taught me what it was about and my community wasn't really interested. I can't blame my parent - they were busy working to raise not only two boys but to support their extended families. So it was up to me to figure it all out, and unbeknownst them - they had provided the greatest clue of all: **my name**
+Although I was given this grandiose name, I never fully knew it's meaning until much later in life. Growing up a lower-middle working class suburb just east of the city center of Sacramento, California, the common language was American English and that side of my family practiced the predominant culture. I may have had some clues into what was this other side of me - with random days having gormeh sabzi or fesenjaan for dinner or visits to distant relatives a few times a year where everyone would suddenly speak another language - but my parents never really taught me what it was about and my community wasn't really interested. I can't blame my parents - they were busy working to raise not only two boys but to support their extended families. So it was up to me to figure it all out, and unbeknownst them - this name of mine they had provided the greatest clue of all for the search to follow. 
 
 ## The Search
 
-I was so incredibly fortunate and privledged to make it to UC Berkeley, for by then I had some big questions to answer and this was the place to do it.  Not only was I curious about that other side of my heritage, but also why it had been so estranged by the predominate community. Aside from the past, I also became concerned about the future as I was being told by boomers that it would be up to my generation to fix the climate - which didn't seem so fair to me.  
+I was so incredibly fortunate to make it to UC Berkeley, for by then I had some big questions and this was the place to answer them.  Not only was I curious about that other side of my heritage, but also why it had been so estranged by the predominate community. Aside from the past, I also became concerned about the future as I was being told by boomers that it would be up to my generation to fix the climate - which didn't seem so fair to me.  
 
-I soon discovered our gruesome past and current conflicts surrounding energy extraction and dominance. Along with many other countries in the world, the politics of my own family's was influenced by foreign oil interests - causing their own need to immigrate. Albeit a rooted, longstanding, several thousand year old culture, their people today have disbanded and scattered across the world. And that reality is a hard truth to acknowledge for folks here. I realized quickly that climate change was a parallel product of this politic and immersed myself in environmental science to remedy both.
+I soon discovered our gruesome past and current global conflicts surrounding energy extraction and dominance. Along with many other countries in the world, the politics of my own family's was influenced by foreign oil interests - causing their own need to immigrate. Albeit a rooted, longstanding, several thousand year old culture, their people today have disbanded and scattered across the world. And I've found that reality is a hard truth to acknowledge for folks here. I realized quickly that climate change was a parallel product of this politic and immersed myself in environmental science to remedy both.
 
 ## Some Practice
 
-Thanks to Berks, I gained some invaluable training and experience.  It's presented in the website but in summary, I was able to research in both Denmark and Argentina and work in both Australian and Californian energy sectors. I was able to refine my skillset with my masters, and I'm now going for more specialization with another masters at Davis.
+Thanks to Berks, I gained some invaluable training and experience.  It's presented in this website but in summary, I was able to research in both Denmark and Argentina and work in both Australian and Californian energy sectors. I was able to refine my skill set with my masters, and I'm now going for more specialization with another masters at Davis.
 
 ## Today
 
