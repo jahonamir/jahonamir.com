@@ -49,11 +49,11 @@ emissions.summary.co2eq <- byproduct.emissions %>%
 ```
   
 Here's a figure of preliminary results I generated using the ggplot package in R:  
-
+**  
 <center>
 ![](/post/Deliverables_files/byproduct.jpeg)  
 </center>
-
+**
 ## Task Report: Facility Lifecycle Emissions Analysis
 
 Here I worked with Berkeley Lab's Electricity Markets & Policy group to evaluate the lifecycle greenhouse gas impact of a Californian Bioenergy Facility for the California Energy Commission.
@@ -75,11 +75,12 @@ results.kg.co2eq <- TotalGHGEmissions(A, data.matrix(y, rownames.force = NA),
                                       time.horizon)
 ```
   
-Here's a figure of preliminary results I generated using the ggplot package in R:
-  
+Here's a figure of preliminary results I generated using the ggplot package in R:  
+**
 <center>
 ![](/post/Deliverables_files/CEC.jpeg) 
 </center>  
+**
 ## Masters Thesis: Project Financial Model
 
 I developed a financial model to determine the feasibility of anaerobic digestion facilities varying state market context and end product. 
@@ -107,10 +108,11 @@ results.df <- data.frame(
 )
 ```
 Here's a figure of preliminary results I generated using the ggplot package in R:
-  
+**  
 <center>
 ![](/post/Deliverables_files/thesis.jpeg)  
 </center>
+**
 **[Full PDF](/post/Deliverables_files/thesis.pdf)**
 
 ## Course Project: The Effect of Raising the Minimum Wage on Teen Employment
@@ -137,9 +139,11 @@ ggplot(data = usa) +
   theme(plot.subtitle = element_text(hjust = 0.5))
 ```
 Which resulted in:  
+**
 <center>
 ![](/post/Deliverables_files/TreatmentMap.jpg)  
-</center>  
+</center> 
+**
 And the code which generates the results (after the linear models are defined) using the stargazer package in R:  
 ```{stargazer}
 stargazer(Model.1, Model.2, Model.8, Model.9, Model.10, Model.11, type = 'text', 
@@ -148,11 +152,12 @@ stargazer(Model.1, Model.2, Model.8, Model.9, Model.10, Model.11, type = 'text',
           covariate.labels=c('Treatment States','Post 2004','Treatment X Post 2004', 'Log Real State Minimum Wage'))
 ```
   
-And the resulting figure:
+And the resulting figure:  
+**
 <center>
 ![](/post/Deliverables_files/MinWageResults.jpg)  
 </center>  
-  
+**  
 **[Full PDF](/post/Deliverables_files/Quant_Report.pdf)**
 
 ## Client Project: Cleantech Market Evaluation
@@ -160,43 +165,47 @@ And the resulting figure:
 Working with Haas, my team developed a strategic plan for the power electronic start-up Opcondys to optimize market entry and presented to more than 100 investors. 
 
 Here, we outline the technological advantages demonstrated by  Opcondys Optical Transconductance Varistor (OTV).  
+**
 <center>
 ![](/post/Deliverables_files/Opcondys1.jpg)  
 </center> 
-
+**
 And here, we outline suitable markets for entry.  
+**
 <center>
 ![](/post/Deliverables_files/Opcondys2.jpg)  
 </center> 
-
+**
 ## Client Project: Storage Policy Evaluation
 
 While at Goldman, my team worked with the consultancy Strategen and their advocacy wing - the California Energy Storage Alliance (CESA) - to evaluate Community Choice Aggregators (CCAs) impact on the storage market.
 
-Here's a slide from our deck summarizing the depth of planning CCAs have to adopt storage.  
+Here's a slide from our deck summarizing the depth of planning CCAs have to adopt storage.
+**
 <center>
 ![](/post/Deliverables_files/CESA.jpg)
 </center>
-  
+**  
 ## Course Project: Wholesale Electricity Auctions  
 
 For Severin Bornstein's Energy Markets course, we acted as independent competitive electricty generators and developed an industry wide model that evaluated bidding behavior, market and regulatory shifts to maximize firm profits.  
   
 Here's a graph generating industry marginal cost given these shifts relative to generator capacity and our firm's position.  
+** 
 <center>
 ![](/post/Deliverables_files/EEM.jpg)
 </center>
-
+**
 ## Client Project: Regulatory Evaluation
   
 For Steve Weissman's Energy Regulation course, my colleague and I worked with the California Public Utilites Commission's Administrative Law Judge Division to evaluate regulatory intention for utility messaging surrounding energy efficiency. 
   
 This slide demonstrates the messaging criteria outlined by CPUC regulation for utility ME&O programs. 
-  
+**  
 <center>
 ![](/post/Deliverables_files/CPUC.jpg)
 </center>
-
+**
 ## Course Project: Causal Inferences in the Bioenergy Sector 
 
 For Jesse Rothstein's Program Evaluation course, I evaluated existing quasi-experiments and life-cycle greenhouse gas evaluations regarding the bioenergy sector to determine their applicability to the Californian context.
@@ -208,10 +217,11 @@ For Jesse Rothstein's Program Evaluation course, I evaluated existing quasi-expe
 For Ian Wang's Spatial Ecology course I use Hanna Bruenig's biomass inventory to determine the least cost path for bioenergy production. 
   
 Here's a plot of the potential wet anaerobic digestion facility locations in California.  
+**
 <center>
 ![](/post/Deliverables_files/Spatial.png)
 </center>
-
+**
 After reading and stacking spatial data using the special features and raster packages in R, I develop a raster layer with biomass locations and bioenergy facility locations and generate least cost paths between the two per county.
 ```{LCP}
 wet_or_dry <- c('wetAD', 'dryAD')
@@ -274,7 +284,8 @@ for (i in 1:nrow(county_sp)) {
 }
 ```
 The loop generates plots for all counties in California, but here is one generated for Yuba.  
-
+**
 <center>
 ![](/post/Deliverables_files/Spatial2.png)
 </center>
+**
