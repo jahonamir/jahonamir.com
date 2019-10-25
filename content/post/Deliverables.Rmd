@@ -18,13 +18,16 @@ Here I worked with Berkeley Labs' Electricity Markets & Policy group to evaluate
 
 ##### J. Satchwell, Andrew & Scown, Corinne & Josephine Smith, Sarah & Amirebrahimi, Jahon & Jin, Ling & Kirchstetter, Thomas & Brown, Nancy & V. Preble, Chelsea. (2018). Accelerating the Deployment of Anaerobic Digestion to Meet Zero Waste Goals. Environmental Science & Technology. 52. 10.1021/acs.est.8b04481.
 
-**[Full PDF](https://www.ce.berkeley.edu/sites/default/files/assets/users/kirchstetter/Satchwell%20et%20al%2C%20ES%26T%20Feature%202018%2C%20Accelerating%20AD%20for%20Zero%20Waste.pdf)**
+**[Publication Link](https://pubs.acs.org/doi/10.1021/acs.est.8b04481)**
 
-## ES&T Publication (In Review): Statewide Bioenergy Lifecycle Emissions Analysis
+## ES&T Publication: Role of Digestate and Biochar in Carbon-Negative Bioenergy.
+
 
 Here I worked with Berkeley Lab's Sustainable Energy Systems group to evaluate the lifecycle greenhouse gas impact of bioenergy byproducts California wide. 
 
-##### M. Breunig, Hanna & Amirebrahimi, Jahon & Smith, Sarah & D. Scown, Corinne (2019). Bioenergy byproduct-to-land life-cycle for the gasification and anaerobic digestion of California’s biomass residues.
+##### M. Breunig, Hanna & Amirebrahimi, Jahon & Smith, Sarah & D. Scown, Corinne (2019). Role of Digestate and Biochar in Carbon-Negative Bioenergy. Environmental Science & Technology. 52. 10.1021/acs.est.9b03763
+
+**[Publication Link](https://pubs.acs.org/doi/10.1021/acs.est.9b03763)**
 
 This code snippet in R uses tidyverse to aggregate emission impacts evaluated.  
 ```{Bioenergy Byproduct GHG Summation}

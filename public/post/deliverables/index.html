@@ -72,14 +72,15 @@
 <p>Here I worked with Berkeley Labs’ Electricity Markets &amp; Policy group to evaluate both the scientific and regulatory constraints impacting the bioenergy sector.</p>
 <div id="j.-satchwell-andrew-scown-corinne-josephine-smith-sarah-amirebrahimi-jahon-jin-ling-kirchstetter-thomas-brown-nancy-v.-preble-chelsea.-2018.-accelerating-the-deployment-of-anaerobic-digestion-to-meet-zero-waste-goals.-environmental-science-technology.-52.-10.1021acs.est.8b04481." class="section level5">
 <h5>J. Satchwell, Andrew &amp; Scown, Corinne &amp; Josephine Smith, Sarah &amp; Amirebrahimi, Jahon &amp; Jin, Ling &amp; Kirchstetter, Thomas &amp; Brown, Nancy &amp; V. Preble, Chelsea. (2018). Accelerating the Deployment of Anaerobic Digestion to Meet Zero Waste Goals. Environmental Science &amp; Technology. 52. 10.1021/acs.est.8b04481.</h5>
-<p><strong><a href="https://www.ce.berkeley.edu/sites/default/files/assets/users/kirchstetter/Satchwell%20et%20al%2C%20ES%26T%20Feature%202018%2C%20Accelerating%20AD%20for%20Zero%20Waste.pdf">Full PDF</a></strong></p>
+<p><strong><a href="https://pubs.acs.org/doi/10.1021/acs.est.8b04481">Publication Link</a></strong></p>
 </div>
 </div>
-<div id="est-publication-in-review-statewide-bioenergy-lifecycle-emissions-analysis" class="section level2">
-<h2>ES&amp;T Publication (In Review): Statewide Bioenergy Lifecycle Emissions Analysis</h2>
+<div id="est-publication-role-of-digestate-and-biochar-in-carbon-negative-bioenergy." class="section level2">
+<h2>ES&amp;T Publication: Role of Digestate and Biochar in Carbon-Negative Bioenergy.</h2>
 <p>Here I worked with Berkeley Lab’s Sustainable Energy Systems group to evaluate the lifecycle greenhouse gas impact of bioenergy byproducts California wide.</p>
-<div id="m.-breunig-hanna-amirebrahimi-jahon-smith-sarah-d.-scown-corinne-2019.-bioenergy-byproduct-to-land-life-cycle-for-the-gasification-and-anaerobic-digestion-of-californias-biomass-residues." class="section level5">
-<h5>M. Breunig, Hanna &amp; Amirebrahimi, Jahon &amp; Smith, Sarah &amp; D. Scown, Corinne (2019). Bioenergy byproduct-to-land life-cycle for the gasification and anaerobic digestion of California’s biomass residues.</h5>
+<div id="m.-breunig-hanna-amirebrahimi-jahon-smith-sarah-d.-scown-corinne-2019.-role-of-digestate-and-biochar-in-carbon-negative-bioenergy.-environmental-science-technology.-52.-10.1021acs.est.9b03763" class="section level5">
+<h5>M. Breunig, Hanna &amp; Amirebrahimi, Jahon &amp; Smith, Sarah &amp; D. Scown, Corinne (2019). Role of Digestate and Biochar in Carbon-Negative Bioenergy. Environmental Science &amp; Technology. 52. 10.1021/acs.est.9b03763</h5>
+<p><strong><a href="https://pubs.acs.org/doi/10.1021/acs.est.9b03763">Publication Link</a></strong></p>
 <p>This code snippet in R uses tidyverse to aggregate emission impacts evaluated.</p>
 <pre class="bioenergy"><code>emissions.summary.co2eq &lt;- byproduct.emissions %&gt;%
     group_by(year, biomass.category, product) %&gt;%
@@ -99,14 +100,14 @@
                             id.vars = c(&#39;year&#39;,&#39;biomass.category&#39;,&#39;product&#39;, &#39;scenario&#39;), 
                             variable.name = &#39;process&#39;, 
                             value.name = &#39;value&#39;)</code></pre>
-<p>Here’s a figure of preliminary results I generated using the ggplot package in R:</p>
+Here’s a figure of preliminary results I generated using the ggplot package in R:<br />
+**<br />
+
 <center>
 <img src="/post/Deliverables_files/byproduct.jpeg" />
 </center>
-</div>
-</div>
-<div id="task-report-facility-lifecycle-emissions-analysis" class="section level2">
-<h2>Task Report: Facility Lifecycle Emissions Analysis</h2>
+<p>**
+## Task Report: Facility Lifecycle Emissions Analysis</p>
 <p>Here I worked with Berkeley Lab’s Electricity Markets &amp; Policy group to evaluate the lifecycle greenhouse gas impact of a Californian Bioenergy Facility for the California Energy Commission.</p>
 <p>This code snippet in R uses matrix algebra to aggregate emission factors with facility processes.</p>
 <pre class="lca"><code>y$scenario &lt;- cases[scenario]
@@ -122,14 +123,15 @@ results.kg.co2eq &lt;- TotalGHGEmissions(A, data.matrix(y, rownames.force = NA),
                                       co2.filepath,
                                       ch4.filepath, n2o.filepath,
                                       time.horizon)</code></pre>
-<p>Here’s a figure of preliminary results I generated using the ggplot package in R:</p>
+Here’s a figure of preliminary results I generated using the ggplot package in R:<br />
+**
 <center>
 <img src="/post/Deliverables_files/CEC.jpeg" />
 </center>
-</div>
-<div id="masters-thesis-project-financial-model" class="section level2">
-<h2>Masters Thesis: Project Financial Model</h2>
+<p>**
+## Masters Thesis: Project Financial Model</p>
 <p>I developed a financial model to determine the feasibility of anaerobic digestion facilities varying state market context and end product.</p>
+</div>
 <div id="amirebrahimi-jahon-2019.-determining-dry-anaerobic-digestion-feasibility-to-advance-state-environmental-ambitions.-goldman-school-of-public-policy-university-of-california-berkeley." class="section level5">
 <h5>Amirebrahimi, Jahon (2019). Determining Dry Anaerobic Digestion Feasibility to Advance State Environmental Ambitions. Goldman School of Public Policy, University of California, Berkeley.</h5>
 <p>This code snippet in R calculates the net present value and internal rate of return using facility cost and revenue vectors.</p>
@@ -150,11 +152,14 @@ results.df &lt;- data.frame(
   state = profit.npv.irr[[&#39;npv&#39;]][[&#39;state&#39;]],
   scenario2 = profit.npv.irr[[&#39;npv&#39;]][[&#39;scenario2&#39;]]
 )</code></pre>
-<p>Here’s a figure of preliminary results I generated using the ggplot package in R:</p>
+Here’s a figure of preliminary results I generated using the ggplot package in R:
+**<br />
+
 <center>
 <img src="/post/Deliverables_files/thesis.jpeg" />
 </center>
-<p><strong><a href="/post/Deliverables_files/thesis.pdf">Full PDF</a></strong></p>
+<p><strong>
+</strong><a href="/post/Deliverables_files/thesis.pdf">Full PDF</a>**</p>
 </div>
 </div>
 <div id="course-project-the-effect-of-raising-the-minimum-wage-on-teen-employment" class="section level2">
@@ -178,63 +183,65 @@ results.df &lt;- data.frame(
   theme(plot.title = element_text(hjust = 0.5)) +
   theme(plot.subtitle = element_text(hjust = 0.5))</code></pre>
 Which resulted in:<br />
-
+**
 <center>
 <img src="/post/Deliverables_files/TreatmentMap.jpg" />
 </center>
-<p>And the code which generates the results (after the linear models are defined) using the stargazer package in R:</p>
+<p>**
+And the code which generates the results (after the linear models are defined) using the stargazer package in R:</p>
 <pre class="stargazer"><code>stargazer(Model.1, Model.2, Model.8, Model.9, Model.10, Model.11, type = &#39;text&#39;, 
           title=&#39;Regression Results&#39;, align=TRUE, 
           dep.var.labels=c(&#39;Employed Ages 16-19&#39;, &#39;Employed Ages 16-17&#39;, &#39;Employed White Ages 16-19&#39;),
           covariate.labels=c(&#39;Treatment States&#39;,&#39;Post 2004&#39;,&#39;Treatment X Post 2004&#39;, &#39;Log Real State Minimum Wage&#39;))</code></pre>
-And the resulting figure:
+And the resulting figure:<br />
+**
 <center>
 <img src="/post/Deliverables_files/MinWageResults.jpg" />
 </center>
-<p><strong><a href="/post/Deliverables_files/Quant_Report.pdf">Full PDF</a></strong></p>
+<p>**<br />
+<strong><a href="/post/Deliverables_files/Quant_Report.pdf">Full PDF</a></strong></p>
 </div>
 <div id="client-project-cleantech-market-evaluation" class="section level2">
 <h2>Client Project: Cleantech Market Evaluation</h2>
 <p>Working with Haas, my team developed a strategic plan for the power electronic start-up Opcondys to optimize market entry and presented to more than 100 investors.</p>
 Here, we outline the technological advantages demonstrated by Opcondys Optical Transconductance Varistor (OTV).<br />
-
+**
 <center>
 <img src="/post/Deliverables_files/Opcondys1.jpg" />
 </center>
+<strong>
 And here, we outline suitable markets for entry.<br />
-
+</strong>
 <center>
 <img src="/post/Deliverables_files/Opcondys2.jpg" />
 </center>
-</div>
-<div id="client-project-storage-policy-evaluation" class="section level2">
-<h2>Client Project: Storage Policy Evaluation</h2>
+<p>**
+## Client Project: Storage Policy Evaluation</p>
 <p>While at Goldman, my team worked with the consultancy Strategen and their advocacy wing - the California Energy Storage Alliance (CESA) - to evaluate Community Choice Aggregators (CCAs) impact on the storage market.</p>
-Here’s a slide from our deck summarizing the depth of planning CCAs have to adopt storage.<br />
-
+Here’s a slide from our deck summarizing the depth of planning CCAs have to adopt storage.
+**
 <center>
 <img src="/post/Deliverables_files/CESA.jpg" />
 </center>
-</div>
-<div id="course-project-wholesale-electricity-auctions" class="section level2">
-<h2>Course Project: Wholesale Electricity Auctions</h2>
+<p>**<br />
+## Course Project: Wholesale Electricity Auctions</p>
 <p>For Severin Bornstein’s Energy Markets course, we acted as independent competitive electricty generators and developed an industry wide model that evaluated bidding behavior, market and regulatory shifts to maximize firm profits.</p>
 Here’s a graph generating industry marginal cost given these shifts relative to generator capacity and our firm’s position.<br />
-
+**
 <center>
 <img src="/post/Deliverables_files/EEM.jpg" />
 </center>
-</div>
-<div id="client-project-regulatory-evaluation" class="section level2">
-<h2>Client Project: Regulatory Evaluation</h2>
+<p>**
+## Client Project: Regulatory Evaluation</p>
 <p>For Steve Weissman’s Energy Regulation course, my colleague and I worked with the California Public Utilites Commission’s Administrative Law Judge Division to evaluate regulatory intention for utility messaging surrounding energy efficiency.</p>
-<p>This slide demonstrates the messaging criteria outlined by CPUC regulation for utility ME&amp;O programs.</p>
+This slide demonstrates the messaging criteria outlined by CPUC regulation for utility ME&amp;O programs.
+**<br />
+
 <center>
 <img src="/post/Deliverables_files/CPUC.jpg" />
 </center>
-</div>
-<div id="course-project-causal-inferences-in-the-bioenergy-sector" class="section level2">
-<h2>Course Project: Causal Inferences in the Bioenergy Sector</h2>
+<p>**
+## Course Project: Causal Inferences in the Bioenergy Sector</p>
 <p>For Jesse Rothstein’s Program Evaluation course, I evaluated existing quasi-experiments and life-cycle greenhouse gas evaluations regarding the bioenergy sector to determine their applicability to the Californian context.</p>
 <p><strong><a href="/post/Deliverables_files/Program_Evaluation_Final.pdf">Full PDF</a></strong></p>
 </div>
@@ -242,11 +249,12 @@ Here’s a graph generating industry marginal cost given these shifts relative t
 <h2>Course Project: Bioenergy Generation Least Cost Path</h2>
 <p>For Ian Wang’s Spatial Ecology course I use Hanna Bruenig’s biomass inventory to determine the least cost path for bioenergy production.</p>
 Here’s a plot of the potential wet anaerobic digestion facility locations in California.<br />
-
+**
 <center>
 <img src="/post/Deliverables_files/Spatial.png" />
 </center>
-<p>After reading and stacking spatial data using the special features and raster packages in R, I develop a raster layer with biomass locations and bioenergy facility locations and generate least cost paths between the two per county.</p>
+<p>**
+After reading and stacking spatial data using the special features and raster packages in R, I develop a raster layer with biomass locations and bioenergy facility locations and generate least cost paths between the two per county.</p>
 <pre class="lcp"><code>wet_or_dry &lt;- c(&#39;wetAD&#39;, &#39;dryAD&#39;)
 biomass_stack_sp &lt;- as(biomass_stack, &#39;Spatial&#39;)
 facility_stack_sp &lt;- as(facility_stack, &#39;Spatial&#39;)
@@ -305,10 +313,12 @@ for (i in 1:nrow(county_sp)) {
   }
   }
 }</code></pre>
-<p>The loop generates plots for all counties in California, but here is one generated for Yuba.</p>
+The loop generates plots for all counties in California, but here is one generated for Yuba.<br />
+**
 <center>
 <img src="/post/Deliverables_files/Spatial2.png" />
 </center>
+<p>**</p>
 </div>
 
 
