@@ -7,7 +7,7 @@ tags: ["R Markdown", "plot", "regression"]
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE, out.width = "100%")
+knitr::opts_chunk$set(collapse = TRUE, out.width = "50%")
 ```
 <center>
 ![](/post/About_files/Jahon.png)
