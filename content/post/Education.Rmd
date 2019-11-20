@@ -17,6 +17,13 @@ Department of Agriculture and Resource Economics
 **Master of Science, Energy Econometrics**  
 2019 - 2020
 
+#### Key Coursework
+* Appled Econometrics 
+* Quantitative Microeconomics
+* Game Theory
+* Natural Resource Economics
+* Finance
+
 ## University of California, Berkeley
 Goldman School of Public Policy  
 **Master of Public Policy, Energy Policy**  
@@ -29,7 +36,7 @@ Goldman School of Public Policy
 * Spatial Data Analysis (Ian Wang)
 * Regression Analysis (Rucker Johnson)
 * Program Evaluation (Jessie Rothstein)
-* Microeconomic Applications (Steve Rafael)
+* Microeconomic Theory (Steve Rafael)
 
 ## University of California, Berkeley
 College of Natural Resources  

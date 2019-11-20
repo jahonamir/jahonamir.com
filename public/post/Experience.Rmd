@@ -3,7 +3,10 @@ title: "Experience"
 author: "Jahon Amirebrahimi"
 date: 2017-01-01
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["Experience"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +21,12 @@ Energy analyst, UC Berkeley MPP, and UC Davis MS Candidate with a background in 
 * Corporate, academic, and government policy writing and publishing  
 * Developing and maintaining relationships with external stakeholders, including goverments, advocacy groups, and contractors.    
 * Managing high-budget energy infrastructure programs ($3.5M+) in fast-paced, cross-functional, multi-stakeholder environments
-  
+
+## Agricultural Issues Center  
+University of California, Davis  
+**Economic Researcher** 
+Analyze recent commodity data trends and impacts using the National Health And Nutrition Examination Survey and Agricultural Market Service in SAS and R.
+
 ## Lawrence Berkeley National Laboratory
 Energy Technologies Area: Electricity Markets and Policy Group, Sustainable Energy Systems Group  
 **Bioenergy Researcher**  
@@ -33,28 +41,28 @@ Researched with two groups to model future bioenergy project finance, market, an
   
 ## Opcondys
 Haas Cleantech to Market Program  
-**Business Analyst**  
+**Business Consultant**  
 Aug 2018 - Dec 2018  
 
 Determined value proposition and market strategy for an emerging high voltage power electronic technology and company.  
 
 ## Strategen
 California Energy Storage Alliance  
-**Energy Analyst**  
+**Market Analyst**  
 Jan 2018 - May 2018    
   
 Evaluated the market impacts of Community Choice Aggregators for energy storage stakeholders and developed strategic plan.  
 
 ## California Public Utilities Commission
 Administrative Law Judge Division  
-**Regulatory Analyst**  
+**Policy Analyst**  
 Jan 2018 - May 2018  
   
 Audited investor owned utility marketing, education and outreach program and energy efficiency.  
 
 ## California Environmental Protection Agency
 CalRecycle, Executive Policy Office  
-**Policy Analyst**  
+**Secondary Market Analyst**  
 Jan 2016 - Jan 2017  
   
 Worked with executive policy team to advance emerging climate and bioenergy legislation through stakeholder relations, regulation development, and policy analysis.
@@ -64,7 +72,7 @@ Worked with executive policy team to advance emerging climate and bioenergy legi
 
 ## City of Kalgoorlie-Boulder
 Department of Sustainability  
-**Energy Project Manager**  
+**Energy Project Supervisor**  
 Aug 2015 - Jan 2016  
   
 Managed and executed federally funded multi-million dollar renewable energy projects for regional West Australia.

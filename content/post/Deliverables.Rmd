@@ -3,7 +3,10 @@ title: "Deliverables"
 author: "Jahon Amirebrahimi"
 date: 2016-01-01
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["Deliverables"]
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -209,7 +212,7 @@ This slide demonstrates the messaging criteria outlined by CPUC regulation for u
 ![](/post/Deliverables_files/CPUC.jpg)
 </center>
   
-## Course Project: Causal Inferences in the Bioenergy Sector 
+## Course Project: Quasi Experiments for the Bioenergy Sector 
 
 For Jesse Rothstein's Program Evaluation course, I evaluated existing quasi-experiments and life-cycle greenhouse gas evaluations regarding the bioenergy sector to determine their applicability to the Californian context.
   
